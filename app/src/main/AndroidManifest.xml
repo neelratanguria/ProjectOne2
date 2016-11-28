@@ -23,32 +23,30 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
-        android:name="ProjectOne">
+        android:name="com.estacy.neel.projectone.ProjectOne">
         <!-- android:name="android.support.multidex.MultiDexApplication"-->
-        <activity android:name=".MainActivity">
+        <activity android:name="com.estacy.neel.projectone.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Account" />
-        <activity android:name=".ImageUpload">
+        <activity android:name="com.estacy.neel.projectone.ImageUpload">
             <intent-filter>
                 <action android:name="com.estacy.neel.projectone.ImageUpload" />
 
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-        <activity android:name=".Blog">
+        <activity android:name="com.estacy.neel.projectone.Blog">
             <intent-filter>
                 <action android:name="com.estacy.neel.projectone.Blog" />
 
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-        <activity android:name=".PostActivity" />
-        <activity android:name=".Repeat" />
+        <activity android:name="com.estacy.neel.projectone.PostActivity" />
 
     </application>
 

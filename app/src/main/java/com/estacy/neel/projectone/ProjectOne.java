@@ -3,7 +3,6 @@ package com.estacy.neel.projectone;
 import android.app.Application;
 
 import com.firebase.client.Firebase;
-import com.firebase.client.FirebaseApp;
 import com.google.firebase.database.FirebaseDatabase;
 
 /**
