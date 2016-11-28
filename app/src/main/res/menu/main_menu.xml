@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/profile"
+        android:icon="@mipmap/ic_account_box_white_24dp"
+        app:showAsAction="always"
+        android:title="..." />
+
+    <item android:id="@+id/action_add"
+        android:icon="@mipmap/ic_add_white_24dp"
+        android:title="Add Post"
+        app:showAsAction="always" />
+
+    <item android:id="@+id/action_setting"
+        android:title="Review your locality"
+        app:showAsAction="never"/>
+    <item android:id="@+id/action_setting2"
+        android:title="Map"
+        app:showAsAction="never"/>
+    <item android:id="@+id/action_setting3"
+        android:title="Settings"
+        app:showAsAction="never"/>
+
+</menu>

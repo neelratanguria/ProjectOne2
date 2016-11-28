@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ProjectOne</string>
+    <string name="title_activity_bog">Bog</string>
+
+    <string name="title_activity_repeat">Repeat</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_scshot">scshot</string>
+</resources>
