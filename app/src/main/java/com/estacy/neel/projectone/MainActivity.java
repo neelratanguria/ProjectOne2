@@ -1,7 +1,9 @@
 package com.estacy.neel.projectone;
 
+import android.content.Context;
 import android.content.Intent;
 import android.support.annotation.NonNull;
+import android.support.multidex.MultiDex;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.text.TextUtils;
@@ -27,6 +29,12 @@ public class MainActivity extends AppCompatActivity {
     private FirebaseAuth mAuth;
 
     private FirebaseAuth.AuthStateListener mAuthListener;
+
+    @Override
+    protected void attachBaseContext(Context newBase) {
+        super.attachBaseContext(newBase);
+        MultiDex.install(this);
+    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
