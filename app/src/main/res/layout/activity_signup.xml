@@ -8,7 +8,8 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.estacy.neel.projectone.Signup">
+    tools:context="com.estacy.neel.projectone.Signup"
+    android:background="@color/colorPrimary">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -26,26 +27,33 @@
                 android:id="@+id/editName"
                 android:layout_height="wrap_content"
                 android:hint="Enter Name"
-                android:layout_marginTop="140dp" />
+                android:layout_marginTop="140dp"
+                android:background="@color/colorPrimaryDark"
+                android:padding="20dp" />
 
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/editEmailSignup"
                 android:hint="Enter Email"
-                android:layout_marginTop="20dp" />
+                android:layout_marginTop="20dp"
+                android:background="@color/colorPrimaryDark"
+                android:padding="20dp" />
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/editPassSignup"
                 android:hint="Enter Password"
-                android:layout_marginTop="20dp" />
+                android:layout_marginTop="20dp"
+                android:background="@color/colorPrimaryDark"
+                android:padding="20dp" />
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/btnSignupSubmit"
                 android:text="Submit"
-                android:layout_marginTop="20dp" />
+                android:layout_marginTop="20dp"
+                android:background="@color/colorAccent" />
 
 
         </LinearLayout>
