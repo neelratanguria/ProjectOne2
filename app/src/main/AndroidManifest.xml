@@ -27,7 +27,7 @@
         android:theme="@style/AppTheme">
 
         <!-- android:name="android.support.multidex.MultiDexApplication" -->
-        <activity android:name=".MainActivity">
+        <activity android:name=".Launch">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -48,15 +48,17 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
+        .MainActivity
+        <activity android:name=".MainActivity" />
         <activity android:name=".PostActivity" />
-        <activity android:name=".Launch" />
         <activity android:name=".Signup">
             <intent-filter>
-                <action android:name="com.estacy.neel.projectone.Signup"/>
+                <action android:name="com.estacy.neel.projectone.Signup" />
 
-                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
+        <activity android:name=".Rate"></activity>
     </application>
 
 </manifest>

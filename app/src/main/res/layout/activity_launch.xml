@@ -17,6 +17,7 @@
         android:layout_below="@+id/btnSignIn"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="81dp"
+        android:onClick="signupint"
         android:id="@+id/btnSignup" />
 
     <Button
@@ -26,5 +27,6 @@
         android:layout_marginTop="153dp"
         android:id="@+id/btnSignIn"
         android:layout_alignParentTop="true"
+        android:onClick="signinint"
         android:layout_alignParentStart="true" />
 </RelativeLayout>

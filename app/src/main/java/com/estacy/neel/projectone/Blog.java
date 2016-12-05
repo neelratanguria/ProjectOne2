@@ -15,6 +15,7 @@ import android.widget.TextView;
 
 import com.firebase.client.Firebase;
 import com.firebase.ui.database.FirebaseRecyclerAdapter;
+import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.squareup.picasso.Picasso;
@@ -30,6 +31,11 @@ public class Blog extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_blog);
+        if(count == 0){
+            count++;
+            startActivity(new Intent(Blog.this, Rate.class));
+        }
+
 
 
         Firebase.setAndroidContext(this);
